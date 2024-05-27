@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { workflowMock } from '../dataMock';
-import { StartingPoint, WorkflowBlock, WorkflowGraph, WorkflowNode, UpdateNodePositionData } from '../../types/dataTypes';
+import { StartingPoint, WorkflowBlock, WorkflowGraph, WorkflowNode, UpdateNodePositionData } from '../types/dataTypes';
 
 interface WorkflowState {
   workflowGraph: WorkflowGraph;
