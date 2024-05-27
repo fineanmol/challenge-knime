@@ -1,10 +1,3 @@
-export type Instrument = {
-  isin: string;
-  price: number;
-  bid: number;
-  ask: number;
-};
-
 export type WorkflowNode = {
   id: number;
   data: WorkflowNodeData;
