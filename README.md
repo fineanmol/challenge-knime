@@ -10,7 +10,7 @@ This project is a web application built with React and Tailwind CSS, utilizing R
 ## Deployment Path
 
 
-- The project is running on `http://localhost:3000`.
+- The project is running on [Stackblitz](https://stackblitz.com/~/github.com/fineanmol/challenge-knime).
 
 ## Instead of HTTP Response, Mocked Data Used
 - The Mocked data is present in `src/dataMock.ts` file.
