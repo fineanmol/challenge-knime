@@ -1,26 +1,24 @@
 # Project Title
 
 
-This project is a web application built with React and Tailwind CSS, utilizing Redux for state management. The application features a dynamic workflow editor where users can add and move nodes within a canvas. It includes components such as a search bar to filter and add nodes to the workflow.
-
+This project is a web application built with React and Tailwind CSS, utilizing Redux for state management.
 
 ## Technologies Used
 
-- **React**
-- **Redux**
-- **Tailwind CSS**
-- **TypeScript**
+- React, Redux, Tailwind CSS, TypeScript
 
 ## Deployment Path
 
-   ```
 
-The project is running on `http://localhost:3000`.
+- The project is running on `http://localhost:3000`.
+
+## Instead of HTTP Response, Mocked Data Used
+- The Mocked data is present in `src/dataMock.ts` file.
 
 ## Project Structure
 
 ```
-project-name/
+knime-challenge/
 ├── public/
 │   ├── index.html
 ├── src/
@@ -45,5 +43,3 @@ project-name/
 ├── tsconfig.json
 ```
 
-## Instead of HTTP Response, Mocked Data Used
-- The Mocked data is present in `src/dataMock.ts` file.
