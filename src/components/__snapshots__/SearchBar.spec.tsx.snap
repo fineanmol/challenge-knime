@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render for SearchBar component renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="search-bar w-full bg-white flex justify-center p-4"
+  >
+    <div
+      class="relative w-full max-w-sm"
+      data-testid="search-bar--wrapper"
+    >
+      <input
+        class="text-base h-10 w-full border border-gray-300 p-2 rounded focus:outline-none focus:border-blue-500"
+        data-testid="search-bar--input"
+        placeholder="Add new node..."
+        type="text"
+        value=""
+      />
+      <ul
+        class="absolute left-0 right-0 mt-2 bg-white border border-gray-300 rounded shadow-lg z-10 hidden"
+      >
+        <li
+          class="flex justify-between items-center p-2 hover:bg-gray-100 cursor-pointer bg-white"
+          data-testid="search-bar--list-item"
+        >
+          <span>
+            Data generator
+          </span>
+          <img
+            alt="Data generator"
+            class="h-10 w-10"
+            src="assets/data_generator.jpg"
+          />
+        </li>
+        <li
+          class="flex justify-between items-center p-2 hover:bg-gray-100 cursor-pointer bg-white"
+          data-testid="search-bar--list-item"
+        >
+          <span>
+            CASE Switch Data (Start)
+          </span>
+          <img
+            alt="CASE Switch Data (Start)"
+            class="h-10 w-10"
+            src="assets/case_switch.jpg"
+          />
+        </li>
+        <li
+          class="flex justify-between items-center p-2 hover:bg-gray-100 cursor-pointer bg-white"
+          data-testid="search-bar--list-item"
+        >
+          <span>
+            Cluster Assigner
+          </span>
+          <img
+            alt="Cluster Assigner"
+            class="h-10 w-10"
+            src="assets/cluster_assigner.jpg"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`SearchBar component renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="search-bar w-full bg-white flex justify-center p-4"
+  >
+    <div
+      class="relative w-full max-w-sm"
+      data-testid="search-bar--wrapper"
+    >
+      <input
+        class="text-base h-10 w-full border border-gray-300 p-2 rounded focus:outline-none focus:border-blue-500"
+        data-testid="search-bar--input"
+        placeholder="Add new node..."
+        type="text"
+        value=""
+      />
+      <ul
+        class="absolute left-0 right-0 mt-2 bg-white border border-gray-300 rounded shadow-lg z-10 hidden"
+      >
+        <li
+          class="flex justify-between items-center p-2 hover:bg-gray-100 cursor-pointer bg-white"
+          data-testid="search-bar--list-item"
+        >
+          <span>
+            Data generator
+          </span>
+          <img
+            alt="Data generator"
+            class="h-10 w-10"
+            src="assets/data_generator.jpg"
+          />
+        </li>
+        <li
+          class="flex justify-between items-center p-2 hover:bg-gray-100 cursor-pointer bg-white"
+          data-testid="search-bar--list-item"
+        >
+          <span>
+            CASE Switch Data (Start)
+          </span>
+          <img
+            alt="CASE Switch Data (Start)"
+            class="h-10 w-10"
+            src="assets/case_switch.jpg"
+          />
+        </li>
+        <li
+          class="flex justify-between items-center p-2 hover:bg-gray-100 cursor-pointer bg-white"
+          data-testid="search-bar--list-item"
+        >
+          <span>
+            Cluster Assigner
+          </span>
+          <img
+            alt="Cluster Assigner"
+            class="h-10 w-10"
+            src="assets/cluster_assigner.jpg"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;
